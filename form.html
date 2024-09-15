@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <label for="fname">First Name</label>
+    <br />
+    <input
+      type="text"
+      id="fname"
+      maxlength="20"
+      placeholder="20 letters only"
+    />
+    <br />
+    <label for="lname">Last Name</label>
+    <br />
+    <input
+      type="text"
+      id="lname"
+      maxlength="20"
+      placeholder="20 letters only"
+    />
+
+    <p>Region</p>
+
+    <input type="radio" id="Asia" name="region" />
+    <label for="Asia">Asia</label>
+    <input type="radio" id="Europe" name="region" />
+    <label for="Europe">Europe</label>
+    <input type="radio" id="NorthAmerica" name="region" />
+    <label for="NorthAmerica">North America</label>
+    <input type="radio" id="SouthAmerica" name="region" />
+    <label for="SouthAmerica">South America</label>
+    <input type="radio" id="Africa" name="region" />
+    <label for="Africa">Asia</label>
+
+    <p>Coding Class</p>
+
+    <input type="checkbox" id="JS" />
+    <label for="JS">JavaScript</label>
+    <input type="checkbox" id="Python" />
+    <label for="Python">Python</label>
+    <input type="checkbox" id="html" />
+    <label for="html">HTML/CSS</label>
+    <br />
+    <br />
+    <label for="experiences">Your coding experiences</label>
+    <select id="experiences">
+      <option value="NE">No Experiences</option>
+      <option value="SE">Some Experiences</option>
+      <option value="EE">Extensive Experiences</option>
+    </select>
+    <br />
+    <br />
+    <label for="comment">Any other comments for your application</label>
+    <br />
+    <br />
+    <textarea id="comment" rows="10" cols="30"> </textarea>
+  </body>
+</html>

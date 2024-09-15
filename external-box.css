@@ -1,0 +1,11 @@
+#head{
+    margin-bottom: 50px;
+    width: 40%;
+    min-width: 300px;
+}
+
+#p1 {
+    margin-top: 80px;
+    background-color: lightblue;
+    padding: 25px 50px;
+}
